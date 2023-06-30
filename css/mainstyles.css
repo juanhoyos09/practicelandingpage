@@ -414,7 +414,7 @@ main{
   line-height: 1.7rem;
   color: #757575;
 }
- .plans-conatiner-slider{
+ .plans-container-slider{
   display: flex;
   height: 320px;
   overflow: scroll;
