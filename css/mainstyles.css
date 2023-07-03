@@ -150,14 +150,15 @@ main{
   font-family: 'Inter', sans-serif;
 }
 .main-currency-table .currency-table-title{
-  margin-bottom: 230x;
+  margin-bottom: 23px;
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 1.6rem;
   color: var(--bitcoin-orange);
 }
 .main-commissions-table .commissions-table-title{
- font-size: 1.8rem;
+  margin-bottom: 23px;
+  font-size: 1.8rem;
  font-weight: bold;
  line-height: 2.3rem;
  color: var(--secondary-blue);
@@ -286,6 +287,9 @@ main{
   left: calc(50% - 20px);
   top: -10px;
   background-image: url("../assets/icons/batata.svg");
+  background-position: center;
+  background-repeat:  no-repeat;
+  background-size: cover;
 }
 .product-detail-title{
   width: 90%;
@@ -418,12 +422,13 @@ main{
   display: flex;
   height: 320px;
   overflow: scroll;
+  overscroll-behavior: x;
   scroll-snap-type: x proximity;
 } 
 .plans-container-cards{
   position: relative;
   scroll-snap-align: center;
-  width: 70%;
+  width: 74%;
   min-width: 240px;
   max-width: 320px;
   height: 260px;
